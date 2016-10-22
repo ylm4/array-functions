@@ -87,4 +87,12 @@ print_r($array1);
 print_r($array2);
 print_r($results);
 
+echo "Array Sum \n";
+$a= array (1,2,3,4);
+print_r($a);
+echo "sum(a) = " . array_sum($a) . "\n";
+$b = array(5,6,7,8);
+print_r($b);
+echo "sum(b) = " . array_sum($b) . "\n";
+
 ?>
