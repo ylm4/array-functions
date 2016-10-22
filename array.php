@@ -73,4 +73,10 @@ $innput = array ('python','php','java', array('white','purple'));
 $reversed = array_reverse($innput);
 print_r($innput);
 print_r($reversed);
+
+echo "Array Change Key Case \n";
+$in= array("njit"=> 0, "nasa"=> 1);
+print_r($in);
+print_r(array_change_key_case($in, CASE_UPPER));
+
 ?>
