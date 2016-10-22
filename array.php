@@ -30,4 +30,11 @@ $in= array('zero','one', 'two','three');
 $flipped = array_flip($in);
 print_r($in);
 print_r($flipped);
+
+echo "Array Count \n";
+$pies[1] = 'pumpkin pie';
+$pies[2] = 'banana pie';
+$pies[3] = 'apple pie';
+$count = count($pies);
+print_r ($count);
 ?>
