@@ -54,5 +54,10 @@ $unique = array_unique($j);
 print_r($j);
 print_r($unique);
 
-
+echo "Array Search \n";
+$input_array= array (0 => 'apple', 1 => 'watermelon', 2 => 'orange', 3 => 'pineapple');
+print_r($input_array);
+echo "Search for key orange is in: \n";
+$key= array_search('orange', $input_array);
+print_r($key);
 ?>
