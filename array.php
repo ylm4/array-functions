@@ -18,4 +18,10 @@ $f = array('Calamari', 'Penne Vodka', 'Chocolate Lava Cake');
 $t = array('Appetizer', 'Entree', 'Desert');
 $l = array_combine($t,$f);
 print_r($l);
+
+echo "Array Fill Keys \n";
+$b = array_fill(1,4,'four');
+$s = array_fill(5,4,'eight');
+print_r($b);
+print_r($s);
 ?>
