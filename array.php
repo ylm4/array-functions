@@ -24,4 +24,10 @@ $b = array_fill(1,4,'four');
 $s = array_fill(5,4,'eight');
 print_r($b);
 print_r($s);
+
+echo "Array Flip \n";
+$in= array('zero','one', 'two','three');
+$flipped = array_flip($in);
+print_r($in);
+print_r($flipped);
 ?>
