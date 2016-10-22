@@ -12,4 +12,10 @@ print_r(array_slice($input, 0, -1)); //returns "apple","banana","cherry"
 echo "Array Splice \n";
 $new_input = array_splice($input, 0,3); //$input is now ("apple","banana","cherry")
 print_r($new_input);
+
+echo "Array Combine \n";
+$f = array('Calamari', 'Penne Vodka', 'Chocolate Lava Cake');
+$t = array('Appetizer', 'Entree', 'Desert');
+$l = array_combine($t,$f);
+print_r($l);
 ?>
