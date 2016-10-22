@@ -42,4 +42,12 @@ echo "\nArray Count Values \n";
 $array = array('one', 1, 'one','won','won','won');
 print_r($array);
 print_r(array_count_values($array));
+
+echo "Array Shift \n";
+$f = array('lentils','peas','green beans', 'chickpeas');
+$beans= array_shift($f);
+print_r($f);
+
+
+
 ?>
