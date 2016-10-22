@@ -48,6 +48,11 @@ $f = array('lentils','peas','green beans', 'chickpeas');
 $beans= array_shift($f);
 print_r($f);
 
+echo "Array Unique \n";
+$j = array("green","yellow","white","green","green","white");
+$unique = array_unique($j);
+print_r($j);
+print_r($unique);
 
 
 ?>
