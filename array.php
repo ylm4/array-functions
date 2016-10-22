@@ -37,4 +37,9 @@ $pies[2] = 'banana pie';
 $pies[3] = 'apple pie';
 $count = count($pies);
 print_r ($count);
+
+echo "\nArray Count Values \n";
+$array = array('one', 1, 'one','won','won','won');
+print_r($array);
+print_r(array_count_values($array));
 ?>
