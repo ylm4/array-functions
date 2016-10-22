@@ -79,4 +79,12 @@ $in= array("njit"=> 0, "nasa"=> 1);
 print_r($in);
 print_r(array_change_key_case($in, CASE_UPPER));
 
+echo "Array Different \n";
+$array1= array('white','yellow','orange','purple');
+$array2= array('white','purple');
+$results = array_diff($array1, $array2);
+print_r($array1);
+print_r($array2);
+print_r($results);
+
 ?>
