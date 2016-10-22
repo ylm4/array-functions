@@ -65,6 +65,12 @@ echo "Array Key Exists \n";
 $search_array = array ('pet' => 'dog', 'car' => 'honda', 'fruit' => 'watermelon');
 print_r($search_array);
 if (array_key_exists('car', $search_array)){
-	echo "The element 'car' is in the array";
+	echo "The element 'car' is in the array \n";
 }
+
+echo "Array Reverse \n";
+$innput = array ('python','php','java', array('white','purple'));
+$reversed = array_reverse($innput);
+print_r($innput);
+print_r($reversed);
 ?>
