@@ -60,4 +60,11 @@ print_r($input_array);
 echo "Search for key orange is in: \n";
 $key= array_search('orange', $input_array);
 print_r($key);
+
+echo "Array Key Exists \n";
+$search_array = array ('pet' => 'dog', 'car' => 'honda', 'fruit' => 'watermelon');
+print_r($search_array);
+if (array_key_exists('car', $search_array)){
+	echo "The element 'car' is in the array";
+}
 ?>
